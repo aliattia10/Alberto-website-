@@ -1,0 +1,7 @@
+{
+  "name": "Albert Carmona - Flamenco Contemporáneo",
+  "description": "Sitio web oficial de Albert Carmona, artista flamenco contemporáneo de Granada. Identidad, música y alma flamenca.",
+  "requestFramePermissions": [
+    "camera"
+  ]
+}
