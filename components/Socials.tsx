@@ -35,14 +35,14 @@ const Socials: React.FC = () => {
             href={link.url}
             target="_blank"
             rel="noopener noreferrer"
-            className="text-gray-400 hover:text-[#8B7355] transition-all duration-300 transform hover:-translate-x-2 active:scale-95 bg-black/20 p-2 rounded-full backdrop-blur-sm border border-white/5 hover:border-[#8B7355]/30"
+            className="text-gray-400 hover:text-[#762C26] transition-all duration-300 transform hover:-translate-x-2 active:scale-95 bg-black/20 p-2 rounded-full backdrop-blur-sm border border-white/5 hover:border-[#762C26]/30"
             title={link.name}
           >
             {link.icon}
           </a>
         ))}
       </div>
-      <div className="w-[1px] h-32 bg-gradient-to-t from-transparent via-[#8B7355]/60 to-[#8B7355]/60 mt-4"></div>
+      <div className="w-[1px] h-32 bg-gradient-to-t from-transparent via-[#762C26]/60 to-[#762C26]/60 mt-4"></div>
     </div>
   );
 };

@@ -44,8 +44,8 @@ const Gallery: React.FC = () => {
                 className="w-full h-full object-cover grayscale transition-all duration-1000 group-hover:scale-105 group-hover:grayscale-0 group-hover:brightness-75"
               />
               <div className="absolute inset-0 bg-black/80 opacity-0 group-hover:opacity-100 transition-opacity duration-500 flex flex-col items-center justify-center p-8">
-                <span className="font-sans text-[10px] tracking-[0.6em] uppercase text-[#8B7355] mb-3">{img.caption}</span>
-                <span className="font-serif text-2xl italic text-white text-center border-t border-[#8B7355]/30 pt-4">{img.desc}</span>
+                <span className="font-sans text-[10px] tracking-[0.6em] uppercase text-[#762C26] mb-3">{img.caption}</span>
+                <span className="font-serif text-2xl italic text-white text-center border-t border-[#762C26]/30 pt-4">{img.desc}</span>
               </div>
             </div>
           ))}
