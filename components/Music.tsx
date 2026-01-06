@@ -10,9 +10,6 @@ const Music: React.FC = () => {
           <div className="lg:col-span-4 lg:sticky lg:top-32">
             <span className="font-sans text-[10px] tracking-[0.6em] uppercase text-[#762C26] mb-4 block">Discografía</span>
             <h2 className="font-serif text-6xl md:text-7xl mb-8 italic">El <br/> <span className="gold-gradient">Sonido.</span></h2>
-            <p className="font-sans text-gray-400 font-light leading-relaxed mb-12">
-              Luz y Carbón es un viaje sensorial por las calles de Granada. Una producción que captura la esencia del directo con la precisión del estudio contemporáneo.
-            </p>
             
             <div className="flex items-center gap-6">
               <div className="w-12 h-12 rounded-full border border-[#762C26]/30 flex items-center justify-center animate-pulse">
