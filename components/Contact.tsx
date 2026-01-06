@@ -10,12 +10,10 @@ const Contact: React.FC = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-12 text-left bg-[#0D0D0D] p-12 border border-white/5">
           <div>
             <h4 className="font-sans uppercase tracking-widest text-xs text-[#762C26] mb-4">Management</h4>
-            <p className="font-serif text-2xl italic mb-1">Marta Soler</p>
             <p className="font-sans text-sm text-gray-500">management@albertcarmona.es</p>
           </div>
           <div>
             <h4 className="font-sans uppercase tracking-widest text-xs text-[#762C26] mb-4">Prensa</h4>
-            <p className="font-serif text-2xl italic mb-1">Comunicación</p>
             <p className="font-sans text-sm text-gray-500">contact@albertcarmona.es</p>
           </div>
           <div className="md:col-span-2 pt-8 border-t border-white/5 text-center">
