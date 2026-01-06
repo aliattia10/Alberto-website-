@@ -12,7 +12,7 @@ const Socials: React.FC = () => {
     },
     { 
       name: 'TikTok', 
-      url: 'https://www.tiktok.com/@albertcarmonaoficial?_r=1&_t=ZN-92gdvZEm4YAu', 
+      url: 'https://www.tiktok.com/@albertcarmonaoficial?_r=1&_t=ZN-92gdvZEm4YA', 
       icon: (
         <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"><path d="M9 12a4 4 0 1 0 4 4V4a5 5 0 0 0 5 5"/></svg>
       )
@@ -35,14 +35,14 @@ const Socials: React.FC = () => {
             href={link.url}
             target="_blank"
             rel="noopener noreferrer"
-            className="text-gray-400 hover:text-[#C5A059] transition-all duration-300 transform hover:-translate-x-2 active:scale-95 bg-black/20 p-2 rounded-full backdrop-blur-sm border border-white/5 hover:border-[#C5A059]/30"
+            className="text-gray-400 hover:text-[#8B7355] transition-all duration-300 transform hover:-translate-x-2 active:scale-95 bg-black/20 p-2 rounded-full backdrop-blur-sm border border-white/5 hover:border-[#8B7355]/30"
             title={link.name}
           >
             {link.icon}
           </a>
         ))}
       </div>
-      <div className="w-[1px] h-32 bg-gradient-to-t from-transparent via-[#C5A059]/60 to-[#C5A059]/60 mt-4"></div>
+      <div className="w-[1px] h-32 bg-gradient-to-t from-transparent via-[#8B7355]/60 to-[#8B7355]/60 mt-4"></div>
     </div>
   );
 };

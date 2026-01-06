@@ -4,22 +4,22 @@ import React from 'react';
 const Gallery: React.FC = () => {
   const images = [
     { 
-      url: "https://images.unsplash.com/photo-1514525253361-b83f859b73c0?auto=format&fit=crop&q=80&w=800", 
+      url: "/images/image-1.jpeg", 
       caption: "El Pulso",
       desc: "Escena y Sombra" 
     },
     { 
-      url: "https://images.unsplash.com/photo-1511671782779-c97d3d27a1d4?auto=format&fit=crop&q=80&w=800", 
+      url: "/images/image-3.jpeg", 
       caption: "La Voz",
       desc: "Micro y Quejío" 
     },
     { 
-      url: "https://images.unsplash.com/photo-1550186082-670cdd0445b7?auto=format&fit=crop&q=80&w=800", 
+      url: "/images/image-2.jpeg", 
       caption: "El Detalle",
       desc: "Oro y Piel" 
     },
     { 
-      url: "https://images.unsplash.com/photo-1459749411177-042180ce673c?auto=format&fit=crop&q=80&w=800", 
+      url: "/images/image-1.jpeg", 
       caption: "Directo",
       desc: "Madera y Alma" 
     }
@@ -44,8 +44,8 @@ const Gallery: React.FC = () => {
                 className="w-full h-full object-cover grayscale transition-all duration-1000 group-hover:scale-105 group-hover:grayscale-0 group-hover:brightness-75"
               />
               <div className="absolute inset-0 bg-black/80 opacity-0 group-hover:opacity-100 transition-opacity duration-500 flex flex-col items-center justify-center p-8">
-                <span className="font-sans text-[10px] tracking-[0.6em] uppercase text-[#C5A059] mb-3">{img.caption}</span>
-                <span className="font-serif text-2xl italic text-white text-center border-t border-[#C5A059]/30 pt-4">{img.desc}</span>
+                <span className="font-sans text-[10px] tracking-[0.6em] uppercase text-[#8B7355] mb-3">{img.caption}</span>
+                <span className="font-serif text-2xl italic text-white text-center border-t border-[#8B7355]/30 pt-4">{img.desc}</span>
               </div>
             </div>
           ))}
