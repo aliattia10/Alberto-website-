@@ -12,6 +12,7 @@ const Footer: React.FC = () => {
         <div className="flex space-x-12 mb-12">
            <a href="https://www.instagram.com/albertcarmonaoficial?igsh=MTRscG9hODRja2U0cA==" target="_blank" rel="noopener noreferrer" className="font-sans text-[10px] tracking-[0.3em] uppercase text-gray-500 hover:text-[#762C26] transition-colors">Instagram</a>
            <a href="https://www.tiktok.com/@albertcarmonaoficial?_r=1&_t=ZN-92gdvZEm4YA" target="_blank" rel="noopener noreferrer" className="font-sans text-[10px] tracking-[0.3em] uppercase text-gray-500 hover:text-[#762C26] transition-colors">TikTok</a>
+           <a href="https://youtube.com/@albertcarmonaoficial?si=hqVoVFQaTl1qSHPw" target="_blank" rel="noopener noreferrer" className="font-sans text-[10px] tracking-[0.3em] uppercase text-gray-500 hover:text-[#762C26] transition-colors">YouTube</a>
            <a href="https://open.spotify.com/artist/4b7LJ1fXdYyjk4exh9jogf?si=F-aPtFK7R5eWnMiO7pvOEA" target="_blank" rel="noopener noreferrer" className="font-sans text-[10px] tracking-[0.3em] uppercase text-gray-500 hover:text-[#762C26] transition-colors">Spotify</a>
         </div>
 

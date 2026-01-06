@@ -6,27 +6,24 @@ const Contact: React.FC = () => {
     <section id="contact" className="py-24 md:py-40 bg-[#0A0A0A] flex flex-col items-center">
       <div className="max-w-4xl w-full px-6 text-center">
         <h2 className="font-serif text-5xl md:text-7xl mb-8 italic">Booking <span className="text-[#762C26]">&</span> Contacto</h2>
-        <p className="font-sans text-gray-400 text-lg md:text-xl mb-16 font-light">
-          Para contrataciones, colaboraciones artísticas o prensa, por favor ponte en contacto con nuestra oficina técnica en Granada.
-        </p>
         
         <div className="grid grid-cols-1 md:grid-cols-2 gap-12 text-left bg-[#0D0D0D] p-12 border border-white/5">
           <div>
             <h4 className="font-sans uppercase tracking-widest text-xs text-[#762C26] mb-4">Management</h4>
             <p className="font-serif text-2xl italic mb-1">Marta Soler</p>
-            <p className="font-sans text-sm text-gray-500">management@albertcarmona.com</p>
+            <p className="font-sans text-sm text-gray-500">management@albertcarmona.es</p>
           </div>
           <div>
             <h4 className="font-sans uppercase tracking-widest text-xs text-[#762C26] mb-4">Prensa</h4>
             <p className="font-serif text-2xl italic mb-1">Comunicación</p>
-            <p className="font-sans text-sm text-gray-500">contact@albertcarmona.com</p>
+            <p className="font-sans text-sm text-gray-500">contact@albertcarmona.es</p>
           </div>
           <div className="md:col-span-2 pt-8 border-t border-white/5 text-center">
              <a 
-              href="mailto:contact@albertcarmona.com"
+              href="mailto:contact@albertcarmona.es"
               className="inline-block text-3xl md:text-5xl font-serif italic text-white hover:text-[#762C26] transition-colors"
             >
-              contact@albertcarmona.com
+              contact@albertcarmona.es
             </a>
           </div>
         </div>
