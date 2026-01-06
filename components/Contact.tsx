@@ -19,14 +19,14 @@ const Contact: React.FC = () => {
           <div>
             <h4 className="font-sans uppercase tracking-widest text-xs text-[#B8860B] mb-4">Prensa</h4>
             <p className="font-serif text-2xl italic mb-1">Comunicación</p>
-            <p className="font-sans text-sm text-gray-500">press@albertcarmona.com</p>
+            <p className="font-sans text-sm text-gray-500">contact@albertcarmona.com</p>
           </div>
           <div className="md:col-span-2 pt-8 border-t border-white/5 text-center">
              <a 
-              href="mailto:hola@albertcarmona.com"
+              href="mailto:contact@albertcarmona.com"
               className="inline-block text-3xl md:text-5xl font-serif italic text-white hover:text-[#B8860B] transition-colors"
             >
-              hola@albertcarmona.com
+              contact@albertcarmona.com
             </a>
           </div>
         </div>
