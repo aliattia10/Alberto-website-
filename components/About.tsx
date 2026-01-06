@@ -20,10 +20,6 @@ const About: React.FC = () => {
         </div>
         
         <div className="lg:col-span-7 lg:pl-16">
-          <h2 className="font-serif text-5xl md:text-7xl mb-12 italic leading-tight">
-            Identidad <br/> <span className="gold-gradient tracking-tight">Granadina.</span>
-          </h2>
-          
           <div className="font-sans text-lg text-gray-400 space-y-6 leading-relaxed font-light max-w-2xl">
             <p className="first-letter:text-6xl first-letter:font-serif first-letter:text-[#762C26] first-letter:mr-4 first-letter:float-left first-letter:leading-none">
               Nacido y criado en Andalucía.
