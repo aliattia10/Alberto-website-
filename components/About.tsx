@@ -26,10 +26,10 @@ const About: React.FC = () => {
           
           <div className="font-sans text-lg text-gray-400 space-y-6 leading-relaxed font-light max-w-2xl">
             <p className="first-letter:text-6xl first-letter:font-serif first-letter:text-[#8B7355] first-letter:mr-4 first-letter:float-left first-letter:leading-none">
-              Nacido y criado en Andalucía.
+              Albert Carmona es la voz de una Granada que respira tradición y exhala modernidad. Su estética, marcada por la honestidad de sus tatuajes y la elegancia de los detalles —el oro que brilla bajo el foco, el acero del micro—, es un reflejo fiel de su música: cruda, directa y profundamente emocional.
             </p>
             <p>
-              Granada-España. Copyright, Alberto Carmona. VC Sin muchas palabras. .... sin etiquetas. VC°
+              Huyendo de los estereotipos de postal, Albert construye un puente entre el flamenco de raíz y las texturas contemporáneas. Es el sonido de las manos que conocen la tierra pero que también saben manejar el pulso de la vanguardia urbana.
             </p>
           </div>
 
