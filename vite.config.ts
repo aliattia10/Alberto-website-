@@ -8,6 +8,10 @@ export default defineConfig(({ mode }) => {
       server: {
         port: 5173,
         host: '0.0.0.0',
+        allowedHosts: [
+          'devserver-main--sensational-horse-72e431.netlify.app',
+          '.netlify.app',
+        ],
       },
       plugins: [react()],
       define: {
