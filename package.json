@@ -14,8 +14,6 @@
     "react": "^19.2.3"
   },
   "devDependencies": {
-    "@stackbit/cms-git": "^1.0.37",
-    "@stackbit/types": "^2.1.14",
     "@types/node": "^22.14.0",
     "@vitejs/plugin-react": "^5.0.0",
     "typescript": "~5.8.2",
