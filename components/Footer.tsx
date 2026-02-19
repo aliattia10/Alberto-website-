@@ -28,7 +28,7 @@ const Footer: React.FC<FooterProps> = ({ content, objectId }) => {
           <a href="https://open.spotify.com/artist/4b7LJ1fXdYyjk4exh9jogf?si=F-aPtFK7R5eWnMiO7pvOEA" target="_blank" rel="noopener noreferrer" className="font-sans text-[10px] tracking-[0.3em] uppercase text-gray-500 hover:text-[#762C26] transition-colors">Spotify</a>
         </div>
         <div className="w-full max-w-6xl flex flex-col md:flex-row justify-between items-center text-gray-600 text-[9px] font-sans uppercase tracking-[0.4em] opacity-40">
-          <div className="mb-4 md:mb-0">&copy; {new Date().getFullYear()} {c.copyrightName}. Todos los derechos reservados.</div>
+          <div className="mb-4 md:mb-0">&copy; {new Date().getFullYear()} {c.copyrightName}. Todos los derechos reservados. <a href="/admin" className="opacity-50 hover:opacity-100 hover:text-[#762C26] transition-colors ml-2" title="Edit content with TinaCMS">Edit</a></div>
           <div className="flex space-x-12">
             <a href="#" className="hover:text-[#762C26] transition-colors" {...(objectId && { 'data-sb-field-path': 'footer.privacyLabel' })}>{c.privacyLabel}</a>
             <a href="#" className="hover:text-[#762C26] transition-colors" {...(objectId && { 'data-sb-field-path': 'footer.termsLabel' })}>{c.termsLabel}</a>

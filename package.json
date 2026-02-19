@@ -5,15 +5,19 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
+    "dev:tina": "tinacms dev -c \"vite\"",
     "build": "vite build",
     "preview": "vite preview",
     "stackbit:dev": "npx -y @stackbit/cli dev"
   },
   "dependencies": {
+    "react": "^19.2.3",
     "react-dom": "^19.2.3",
-    "react": "^19.2.3"
+    "tinacms": "^1.5.0"
   },
   "devDependencies": {
+    "@tinacms/cli": "^1.9.0",
+    "graphql": "^16.8.1",
     "@types/node": "^22.14.0",
     "@vitejs/plugin-react": "^5.0.0",
     "typescript": "~5.8.2",
