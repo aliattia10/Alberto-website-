@@ -1,6 +1,9 @@
 [build]
   command = "npm run build"
   publish = "dist"
+  # Avoid Visual Editor (Stackbit) dev server; site uses TinaCMS at /admin
+  [build.environment]
+    NETLIFY_SKIP_PLUGIN_VISUAL_EDITOR = "true"
 
 [[redirects]]
   from = "/*"

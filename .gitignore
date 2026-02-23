@@ -26,5 +26,10 @@ dist-ssr
 # Local Netlify folder
 .netlify
 
+# Env (TinaCloud secrets); keep .env.example
+.env
+.env.local
+.env.*.local
+
 # TinaCMS generated (lock file is committed)
 tina/__generated__

@@ -6,9 +6,9 @@
   "scripts": {
     "dev": "vite",
     "dev:tina": "tinacms dev -c \"vite\"",
+    "dev:live": "tinacms dev -c \"vite --port ${PORT:-5173}\"",
     "build": "vite build",
-    "preview": "vite preview",
-    "stackbit:dev": "npx -y @stackbit/cli dev"
+    "preview": "vite preview"
   },
   "dependencies": {
     "react": "^19.2.3",

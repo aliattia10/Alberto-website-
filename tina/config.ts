@@ -1,6 +1,19 @@
 import { defineConfig } from 'tinacms';
 
+// TinaCloud: set TINA_CLIENT_ID, TINA_TOKEN, TINA_BRANCH in .env (see .env.example)
+const branch =
+  process.env.TINA_BRANCH ||
+  process.env.VERCEL_GIT_COMMIT_REF ||
+  process.env.NETLIFY_HEAD ||
+  process.env.HEAD ||
+  'main';
+const clientId = process.env.TINA_CLIENT_ID ?? null;
+const token = process.env.TINA_TOKEN ?? null;
+
 export default defineConfig({
+  branch,
+  clientId,
+  token,
   schema: {
     collections: [
       {

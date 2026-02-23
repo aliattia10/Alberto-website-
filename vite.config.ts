@@ -11,7 +11,15 @@ export default defineConfig(({ mode }) => {
         allowedHosts: [
           'devserver-main--sensational-horse-72e431.netlify.app',
           '.netlify.app',
+          '.ngrok.io',
+          '.ngrok-free.app',
         ],
+        proxy: {
+          '/graphql': { target: 'http://localhost:4001', changeOrigin: true, ws: true },
+          '/@vite': { target: 'http://localhost:4001', changeOrigin: true, ws: true },
+          '/@react-refresh': { target: 'http://localhost:4001', changeOrigin: true },
+          '^/src/': { target: 'http://localhost:4001', changeOrigin: true },
+        },
       },
       plugins: [react()],
       define: {

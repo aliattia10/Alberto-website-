@@ -14,7 +14,6 @@ const Header: React.FC<HeaderProps> = ({ scrolled }) => {
     >
       <a href="#" className="flex flex-col items-start">
         <img src="/images/logo.jpeg" alt="Albert Carmona" className="h-20 md:h-32 w-auto object-contain" />
-        <span className="font-sans text-[8px] tracking-[0.5em] uppercase text-gray-500 mt-1">Granada</span>
       </a>
       
       <nav className="hidden md:flex space-x-12 text-[10px] uppercase tracking-[0.4em] font-sans font-semibold">
